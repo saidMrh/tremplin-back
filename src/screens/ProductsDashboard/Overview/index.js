@@ -13,10 +13,10 @@ const intervals = ["This week", "This month", "This year"];
 
 const items = [
   {
-    title: "Earning",
-    counter: "128k",
+    title: "Événement",
+    counter: "7",
     icon: "activity",
-    value: 37.8,
+    value: 12,
     background: "#edf8f2",
     chartColor: "#83BF6E",
     data: [
@@ -51,10 +51,10 @@ const items = [
     ],
   },
   {
-    title: "Customer",
-    counter: "512",
+    title: "Annonces",
+    counter: "11",
     icon: "shopping-bag",
-    value: -37.8,
+    value: 5,
     background: "#ecf9fe",
     chartColor: "#2A85FF",
     data: [
@@ -89,10 +89,10 @@ const items = [
     ],
   },
   {
-    title: "Payouts",
-    counter: "64k",
+    title: "Formations",
+    counter: "15",
     icon: "payment",
-    value: 37.8,
+    value: 7,
     background: "#f2efff",
     chartColor: "#8E59FF",
     data: [
@@ -135,7 +135,7 @@ const Overview = ({ className }) => {
     <>
       <Card
         className={cn(styles.card, className)}
-        title="Overview"
+        title="Aperçu"
         classTitle="title-purple"
         head={
           <Dropdown
@@ -173,7 +173,7 @@ const Overview = ({ className }) => {
                     <div className={styles.counter}>{x.counter}</div>
                     <div className={styles.indicator}>
                       <Balance className={styles.balance} value={x.value} />
-                      <span>this week</span>
+                      <span>Cette semaine</span>
                     </div>
                   </div>
                   <Chart className={styles.chart} item={x} />

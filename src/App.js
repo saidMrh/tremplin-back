@@ -43,7 +43,7 @@ function App() {
           exact
           path="/products/dashboard"
           render={() => (
-            <Page title="Products dashboard">
+            <Page title="Tableau de bord des Événement">
               <ProductsDashboard />
             </Page>
           )}
@@ -80,7 +80,7 @@ function App() {
           path="/products/comments"
           render={() => (
             <Page title="Comments">
-              <Comments />
+              {/* <Comments /> */}
             </Page>
           )}
         />

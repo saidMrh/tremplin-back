@@ -7,61 +7,61 @@ import ModalProduct from "../ModalProduct";
 
 const products = [
   {
-    title: "Crypter - NFT UI kit",
-    price: "$2,453.80",
+    title: "Raid Essec EY 2016",
+    price: "10/06/22",
     active: true,
-    image: "/images/content/product-pic-1.jpg",
+    image: "/images/content/raid.jpg",
     image2x: "/images/content/product-pic-1@2x.jpg",
   },
   {
-    title: "CCI Hauts de Seine",
-    price: "Stage",
+    title: "Samedi 12 Mars: Journée « Autour des DYS »",
+    price: "25/05/22",
     active: "Date Début",
-    image: "/images/content/product-pic-2.jpg",
-    image2x: "/images/content/product-pic-2@2x.jpg",
+    image: "/images/content/samedi.jpg",
+    image2x: "/images/content/calendar.svg",
   },
   {
-    title: "Fleet - travel shopping kit",
-    price: "$648.60",
+    title: "Sensibilisation à l’EPSI Lyon",
+    price: "09/08/22",
     active: true,
-    image: "/images/content/product-pic-3.jpg",
+    image: "/images/content/lyon.jpg",
     image2x: "/images/content/product-pic-3@2x.jpg",
   },
-  {
-    title: "Fleet - travel shopping kit",
-    price: "$648.60",
-    active: true,
-    image: "/images/content/product-pic-4.jpg",
-    image2x: "/images/content/product-pic-4@2x.jpg",
-  },
-  {
-    title: "Crypter - NFT UI kit",
-    price: "$2,453.80",
-    active: true,
-    image: "/images/content/product-pic-5.jpg",
-    image2x: "/images/content/product-pic-5@2x.jpg",
-  },
-  {
-    title: "Bento Matte 3D illustration 1.0",
-    price: "$105.60",
-    active: false,
-    image: "/images/content/product-pic-2.jpg",
-    image2x: "/images/content/product-pic-2@2x.jpg",
-  },
-  {
-    title: "Fleet - travel shopping kit",
-    price: "$648.60",
-    active: true,
-    image: "/images/content/product-pic-3.jpg",
-    image2x: "/images/content/product-pic-3@2x.jpg",
-  },
-  {
-    title: "Fleet - travel shopping kit",
-    price: "$648.60",
-    active: true,
-    image: "/images/content/product-pic-4.jpg",
-    image2x: "/images/content/product-pic-4@2x.jpg",
-  },
+  // {
+  //   title: "Fleet - travel shopping kit",
+  //   price: "$648.60",
+  //   active: true,
+  //   image: "/images/content/product-pic-4.jpg",
+  //   image2x: "/images/content/product-pic-4@2x.jpg",
+  // },
+  // {
+  //   title: "Crypter - NFT UI kit",
+  //   price: "$2,453.80",
+  //   active: true,
+  //   image: "/images/content/product-pic-5.jpg",
+  //   image2x: "/images/content/product-pic-5@2x.jpg",
+  // },
+  // {
+  //   title: "Bento Matte 3D illustration 1.0",
+  //   price: "$105.60",
+  //   active: false,
+  //   image: "/images/content/product-pic-2.jpg",
+  //   image2x: "/images/content/product-pic-2@2x.jpg",
+  // },
+  // {
+  //   title: "Fleet - travel shopping kit",
+  //   price: "$648.60",
+  //   active: true,
+  //   image: "/images/content/product-pic-3.jpg",
+  //   image2x: "/images/content/product-pic-3@2x.jpg",
+  // },
+  // {
+  //   title: "Fleet - travel shopping kit",
+  //   price: "$648.60",
+  //   active: true,
+  //   image: "/images/content/product-pic-4.jpg",
+  //   image2x: "/images/content/product-pic-4@2x.jpg",
+  // },
 ];
 
 const PopularProducts = ({ className, views }) => {
@@ -71,13 +71,13 @@ const PopularProducts = ({ className, views }) => {
     <>
       <Card
         className={cn(styles.card, className)}
-        title="Popular products"
+        title="Les derniers évènements"
         classTitle="title-blue"
       >
         <div className={styles.popular}>
           <div className={styles.head}>
-            <div className={styles.stage}>Products</div>
-            <div className={styles.stage}>Earning</div>
+            <div className={styles.stage}>évènements</div>
+            <div className={styles.stage}>date d'événement</div>
           </div>
           <div className={styles.list}>
             {products.map(
@@ -90,7 +90,8 @@ const PopularProducts = ({ className, views }) => {
                   >
                     <div className={styles.preview}>
                       <img
-                        srcSet={`${x.image2x} 2x`}
+                        width={30}
+                        height={30}
                         src={x.image}
                         alt="Product"
                       />
@@ -116,7 +117,7 @@ const PopularProducts = ({ className, views }) => {
             className={cn("button-stroke", styles.button)}
             to="/products/dashboard"
           >
-            All products
+            Tous les évènements
           </Link>
         </div>
       </Card>

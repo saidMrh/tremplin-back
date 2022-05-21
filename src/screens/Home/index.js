@@ -12,6 +12,7 @@ import ProductViews from "./ProductViews";
 
 const Home = () => {
   return (
+    // <div></div>
     <>
       <div className={styles.row}>
         <div className={styles.col}>

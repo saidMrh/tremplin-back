@@ -33,7 +33,7 @@ const Overview = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Overview"
+      title="Aperçu"
       classTitle="title-red"
       head={
         <Dropdown

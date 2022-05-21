@@ -8,10 +8,9 @@ import Code from "./Code";
 import Image from "../../components/Image";
 
 const items = [
-  "Unlimited product uploads",
-  "Pro tips",
-  "Free forever",
-  "Full author options",
+  "Libre pour toujours",
+  "Trouver ce que vous cherchez",
+  "Modèles de CV gratuits"
 ];
 
 const SignUp = () => {
@@ -44,14 +43,15 @@ const SignUp = () => {
             />
           </Link>
           <div className={styles.info}>
-            Already a member?{" "}
+          Déjà membrer?{" "}
             <Link className={styles.link} to="/sign-in">
-              Sign in
+              
+S'identifier
             </Link>
           </div>
         </div>
         <div className={styles.wrapper}>
-          <div className={cn("h2", styles.title)}>Sign up</div>
+          <div className={cn("h2", styles.title)}>S'inscrire</div>
           {visible ? <Entry onConfirm={() => setVisible(false)} /> : <Code />}
         </div>
       </div>

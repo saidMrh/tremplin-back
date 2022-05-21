@@ -8,7 +8,7 @@ const Entry = ({ onConfirm }) => {
   return (
     <div className={styles.entry}>
       <div className={styles.head}>
-        <div className={styles.info}>Sign up with Open account</div>
+        <div className={styles.info}>S'inscrire avec Ouvrir un compte</div>
         <div className={styles.btns}>
           <button className={cn("button-stroke", styles.button)}>
             <img src="/images/content/google.svg" alt="Google" />
@@ -26,20 +26,20 @@ const Entry = ({ onConfirm }) => {
         </div>
       </div>
       <div className={styles.body}>
-        <div className={styles.info}>Or continue with email address</div>
+        <div className={styles.info}>Ou continuez avec l'adresse e-mail</div>
         <TextInput
           className={styles.field}
           name="email"
           type="email"
-          placeholder="Your email"
+          placeholder="Votre email"
           required
           icon="mail"
         />
         <button className={cn("button", styles.button)} onClick={onConfirm}>
-          Continue
+          Continuez
         </button>
         <div className={styles.note}>
-          This site is protected by reCAPTCHA and the Google Privacy Policy.
+          Ce site est protégé par reCAPTCHA et la politique de confidentialité de Google.
         </div>
       </div>
     </div>

@@ -53,7 +53,8 @@ const Search = ({ className }) => {
           <input
             className={styles.input}
             type="text"
-            placeholder="Search or type a command"
+            placeholder="
+            Rechercher ou taper une commande"
             onChange={() => setVisible(true)}
           />
           <button className={styles.result}>⌘ F</button>

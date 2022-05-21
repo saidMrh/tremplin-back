@@ -17,33 +17,34 @@ const requests = [
 
 const RefundRequests = ({ className, title, classTitle }) => {
   return (
-    <Card
-      className={cn(styles.card, className)}
-      title={title}
-      classTitle={classTitle}
-    >
-      <div className={styles.section}>
-        <div className={styles.list}>
-          {requests.map((x, index) => (
-            <div className={styles.item} key={index}>
-              <div className={styles.icon} style={{ backgroundColor: x.color }}>
-                <Icon name={x.icon} size="24" fill={x.fill} />
-              </div>
-              <div
-                className={styles.content}
-                dangerouslySetInnerHTML={{ __html: x.content }}
-              ></div>
-            </div>
-          ))}
-        </div>
-        <Link
-          className={cn("button-stroke", styles.button)}
-          to="/income/refunds"
-        >
-          Review refund requests
-        </Link>
-      </div>
-    </Card>
+    <div></div>
+    // <Card
+    //   className={cn(styles.card, className)}
+    //   title={title}
+    //   classTitle={classTitle}
+    // >
+    //   <div className={styles.section}>
+    //     <div className={styles.list}>
+    //       {requests.map((x, index) => (
+    //         <div className={styles.item} key={index}>
+    //           <div className={styles.icon} style={{ backgroundColor: x.color }}>
+    //             <Icon name={x.icon} size="24" fill={x.fill} />
+    //           </div>
+    //           <div
+    //             className={styles.content}
+    //             dangerouslySetInnerHTML={{ __html: x.content }}
+    //           ></div>
+    //         </div>
+    //       ))}
+    //     </div>
+    //     <Link
+    //       className={cn("button-stroke", styles.button)}
+    //       to="/income/refunds"
+    //     >
+    //       Review refund requests
+    //     </Link>
+    //   </div>
+    // </Card>
   );
 };
 
