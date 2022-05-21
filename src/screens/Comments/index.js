@@ -29,7 +29,7 @@ const Comments = () => {
             value={search}
             setValue={setSearch}
             onSubmit={() => handleSubmit()}
-            placeholder="Search product"
+            placeholder="Chercher une annonce"
             type="text"
             name="search"
             icon="search"

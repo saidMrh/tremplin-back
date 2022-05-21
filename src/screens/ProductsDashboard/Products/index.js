@@ -59,7 +59,7 @@ const Products = () => {
   return (
     <Card
       className={styles.card}
-      title="Products"
+      title="Annonces"
       classTitle={cn("title-purple", styles.title)}
       classCardHead={styles.head}
       head={
@@ -69,7 +69,7 @@ const Products = () => {
             value={search}
             setValue={setSearch}
             onSubmit={() => handleSubmit()}
-            placeholder="Search product"
+            placeholder="Chercher une annonce"
             type="text"
             name="search"
             icon="search"

@@ -29,10 +29,10 @@ const Market = ({ items }) => {
               onChange={() => setСhooseAll(!chooseAll)}
             />
           </div>
-          <div className={styles.col}>Product</div>
-          <div className={styles.col}>Status</div>
-          <div className={styles.col}>Price</div>
-          <div className={styles.col}>Sales</div>
+          <div className={styles.col}>Annonces</div>
+          <div className={styles.col}>Type</div>
+          <div className={styles.col}>Durée</div>
+          <div className={styles.col}>Date début</div>
           <div className={styles.col}>Views</div>
           <div className={styles.col}>Likes</div>
         </div>

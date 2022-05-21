@@ -10,7 +10,7 @@ export const traffic = [
     progress: progress(),
     items: [
       {
-        title: "Market",
+        title: "Hello",
         color: "#FFBC99",
         counter: 550000,
         width: "20%",

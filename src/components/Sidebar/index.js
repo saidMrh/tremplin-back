@@ -10,26 +10,26 @@ import Image from "../Image";
 
 const navigation = [
   {
-    title: "Home",
+    title: "Mon espace",
     icon: "home",
     url: "/",
   },
   {
-    title: "Products",
+    title: "Événement",
     slug: "products",
     icon: "diamond",
     add: true,
     dropdown: [
       {
-        title: "Dashboard",
+        title: "Tableau de bord",
         url: "/products/dashboard",
       },
-      {
-        title: "Drafts",
-        url: "/products/drafts",
-        counter: "2",
-        colorCounter: "#FFBC99",
-      },
+      // {
+      //   title: "Drafts",
+      //   url: "/products/drafts",
+      //   counter: "2",
+      //   colorCounter: "#FFBC99",
+      // },
       {
         title: "Released",
         url: "/products/released",

@@ -14,9 +14,9 @@ const products = [
     image2x: "/images/content/product-pic-1@2x.jpg",
   },
   {
-    title: "Bento Matte 3D illustration 1.0",
-    price: "$105.60",
-    active: false,
+    title: "CCI Hauts de Seine",
+    price: "Stage",
+    active: "Date Début",
     image: "/images/content/product-pic-2.jpg",
     image2x: "/images/content/product-pic-2@2x.jpg",
   },

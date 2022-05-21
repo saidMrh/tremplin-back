@@ -37,7 +37,7 @@ const Drafts = () => {
       <Card
         className={styles.card}
         classCardHead={styles.head}
-        title="Products"
+        title="Annonces"
         classTitle={cn("title-purple", styles.title)}
         head={
           <>
