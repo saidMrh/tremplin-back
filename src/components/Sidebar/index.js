@@ -149,7 +149,7 @@ const Sidebar = ({ className, onClose }) => {
         <div className={styles.foot}>
           <button className={styles.link} onClick={() => setVisibleHelp(true)}>
             <Icon name="help" size="24" />
-            Help & getting started
+            Aide & formation
             <div className={styles.counter}>8</div>
           </button>
           <Theme className={styles.theme} visibleSidebar={visible} />

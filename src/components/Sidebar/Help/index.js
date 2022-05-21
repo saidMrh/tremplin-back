@@ -78,7 +78,7 @@ const Help = ({ className, visible, setVisible, onClose }) => {
       <div className={cn(styles.help, className, { [styles.active]: visible })}>
         <div className={styles.head}>
           <Icon name="help" size="24" />
-          Help & getting started
+          Aide & formation
           <button className={styles.close} onClick={() => setVisible(false)}>
             <Icon name="close" size="24" />
           </button>
