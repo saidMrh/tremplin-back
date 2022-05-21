@@ -23,8 +23,8 @@ const NewProduct = () => {
     <>
       <div className={styles.row}>
         <div className={styles.col}>
+        <ImagesAndCTA className={styles.card} />
           <NameAndDescription className={styles.card} />
-          <ImagesAndCTA className={styles.card} />
           <Price className={styles.card} />
           <CategoryAndAttibutes className={styles.card} />
           <ProductFiles className={styles.card} />

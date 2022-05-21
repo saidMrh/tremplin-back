@@ -13,24 +13,17 @@ const ImagesAndCTA = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Images & CTA"
+      title="Mon CV actuel"
       classTitle="title-blue"
     >
       <div className={styles.images}>
         <File
           className={styles.field}
-          title="Click or drop image"
-          label="Cover images"
+          title="Télécharger votre CV"
+          label="Tous les formats sont acceptés"
           tooltip="Maximum 100 characters. No HTML or emoji allowed"
         />
-        <Dropdown
-          className={styles.field}
-          label="Dropdown"
-          tooltip="Maximum 100 characters. No HTML or emoji allowed"
-          value={purchase}
-          setValue={setPurchase}
-          options={optionsPurchase}
-        />
+       
       </div>
     </Card>
   );
