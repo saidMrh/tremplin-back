@@ -39,7 +39,7 @@ const ModalProduct = ({ visible, onClose }) => {
         <div className={styles.control}>
           <Link
             className={cn("button-white", styles.button)}
-            to="/products/add"
+            to="//moncv"
           >
             Edit product
           </Link>

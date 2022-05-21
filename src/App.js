@@ -50,9 +50,9 @@ function App() {
         />
         <Route
           exact
-          path="/products/add"
+          path="/moncv"
           render={() => (
-            <Page title="New product">
+            <Page title="Mon CV">
               <NewProduct />
             </Page>
           )}

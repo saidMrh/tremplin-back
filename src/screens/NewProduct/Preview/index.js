@@ -13,7 +13,7 @@ const Preview = ({ visible, onClose }) => {
       <Card
         className={styles.card}
         classCardHead={styles.head}
-        title="Preview"
+        title="Visualisation"
         classTitle="title-blue"
         head={
           <button className={styles.button}>
@@ -23,20 +23,19 @@ const Preview = ({ visible, onClose }) => {
       >
         <div className={styles.body}>
           <div className={styles.photo}>
-            <img src="/images/content/photo-1.jpg" alt="Product" />
+            <img src="/images/content/cv.jpg" alt="Product" />
           </div>
           <div className={styles.line}>
             <div className={styles.title}>
-              Fleet - Travel shopping UI design kit
+             Mon cv
             </div>
-            <div className={styles.price}>$98</div>
           </div>
           <div className={styles.user}>
             <div className={styles.avatar}>
               <img src="/images/content/avatar.jpg" alt="Avatar" />
             </div>
             <div className={styles.text}>
-              by <span>Hortense</span>
+              par <span>Dana ZOUAOUI</span>, le 22 Mai 2022
             </div>
           </div>
         </div>

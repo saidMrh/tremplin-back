@@ -25,7 +25,7 @@ const Overview = () => {
     <>
       <div className={styles.overview}>
         <div className={cn("h4", styles.title)}>
-          Fleet - Travel shopping UI design kit
+          Mon CV
         </div>
         <div className={styles.info}>
           Elegant product mockup for your next project

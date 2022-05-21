@@ -13,7 +13,7 @@ const NameAndDescription = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Name & description"
+      title="Votre profile"
       classTitle="title-green"
       head={
         <Link
@@ -28,7 +28,7 @@ const NameAndDescription = ({ className }) => {
       <div className={styles.description}>
         <TextInput
           className={styles.field}
-          label="Product title"
+          label="Titre"
           name="title"
           type="text"
           tooltip="Maximum 100 characters. No HTML or emoji allowed"
@@ -38,13 +38,13 @@ const NameAndDescription = ({ className }) => {
           state={content}
           onChange={setContent}
           classEditor={styles.editor}
-          label="Description"
+          label="Présentation rapide"
           tooltip="Description"
         />
         <div className={styles.group}>
           <TextInput
             className={styles.field}
-            label="Key features"
+            label="Compétences clés"
             name="value1"
             type="text"
             placeholder="Value"

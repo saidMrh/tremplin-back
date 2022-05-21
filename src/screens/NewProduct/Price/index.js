@@ -12,18 +12,17 @@ const Price = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Price"
+      title="Coordonnées"
       classTitle="title-green"
     >
       <div className={styles.price}>
         <TextInput
           className={styles.field}
-          label="Amount"
+          label="Années d'expérience"
           name="amount"
           type="text"
           tooltip="Small description"
           required
-          currency="$"
         />
         <div className={styles.line}>
           <div className={styles.info}>
