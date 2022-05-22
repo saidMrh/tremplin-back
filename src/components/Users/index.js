@@ -6,8 +6,8 @@ import Icon from "../Icon";
 
 const users = [
   {
-    title: "Dana",
-    avatar: "/images/content/avatar.jpg",
+    title: "Jade",
+    avatar: "/images/content/avatar-5.jpg",
     url: "/message-center",
   },
   {

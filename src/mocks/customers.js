@@ -49,7 +49,7 @@ export const customers = [
   },
   {
     id: 4,
-    user: "Bessie Runolfsson",
+    user: "Jade",
     login: "@username",
     avatar: "/images/content/avatar-5.jpg",
     email: "bess@ui8.net",
