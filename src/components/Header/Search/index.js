@@ -59,7 +59,7 @@ const Search = ({ className }) => {
           />
           <button className={styles.result}>⌘ F</button>
           <button className={styles.close} onClick={() => setVisible(false)}>
-            <Icon name="close-circle" size="24" />
+            <Icon name="close-circle" size="24" /> <span style={{color: "white"}}>L</span>
           </button>
         </div>
         <div className={styles.body}>

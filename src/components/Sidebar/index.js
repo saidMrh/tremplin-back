@@ -18,7 +18,7 @@ const navigation = [
     title: "Évènements",
     slug: "Actualités",
     icon: "schedule",
-    add: true,
+    // add: true,
     dropdown: [
       {
         title: "Tableau de bord",
@@ -161,8 +161,8 @@ const Sidebar = ({ className, onClose }) => {
           )}
         </div>
         <button className={styles.toggle} onClick={() => setVisible(!visible)}>
-          <Icon name="arrow-right" size="24" />
-          <Icon name="close" size="24" />
+          <Icon name="arrow-right" size="24" /> <span style={{color: "white"}}>L</span>
+          <Icon name="close" size="24" /> <span style={{color: "white"}}>L</span>
         </button>
         <div className={styles.foot}>
           <button className={styles.link} onClick={() => setVisibleHelp(true)}>
