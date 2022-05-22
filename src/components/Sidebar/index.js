@@ -64,7 +64,25 @@ const navigation = [
   {
     title: "Nos entreprises",
     icon: "leaderboard",
-    url: "/shop",
+    dropdown: [
+      {
+        title: "Earning",
+        url: "/income/earning",
+      },
+      {
+        title: "Refunds",
+        url: "/income/refunds",
+      },
+      {
+        title: "Payouts",
+        url: "/income/payouts",
+      },
+      {
+        title: "Statements",
+        url: "/income/statements",
+      },
+    ],
+
   },
   {
     title: "Nos écoles",
