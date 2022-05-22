@@ -21,7 +21,7 @@ const RecentPost = ({ className }) => {
     <>
       <Card
         className={cn(styles.card, className)}
-        title="Recent post"
+        title="Les dernieres formations"
         classTitle={cn("title-blue", styles.title)}
         classCardHead={styles.head}
         head={

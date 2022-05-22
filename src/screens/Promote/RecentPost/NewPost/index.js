@@ -19,7 +19,7 @@ const files = ["image-stroke", "video-stroke"];
 const NewPost = () => {
   return (
     <div className={styles.post}>
-      <div className={cn("title-green", styles.title)}>New post</div>
+      <div className={cn("title-green", styles.title)}>Nouvelle formation</div>
       <div className={styles.list}>
         {items.map((x, index) => (
           <div className={styles.avatar} key={index}>

@@ -34,9 +34,10 @@ const Notification = ({ className }) => {
         })}
       >
         <button
+          aria-label="nofits"
           className={cn('Btn 3', styles.head, styles.active)}
           onClick={() => setVisible(!visible)}
-        >
+        > H
           <Icon name="notification" size="24" />
         </button>
         <div className={styles.body}>

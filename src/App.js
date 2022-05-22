@@ -161,7 +161,7 @@ function App() {
           exact
           path="/promote"
           render={() => (
-            <Page title="Promote">
+            <Page title="Formations">
               <Promote />
             </Page>
           )}

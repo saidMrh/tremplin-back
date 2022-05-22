@@ -74,7 +74,7 @@ const Messages = ({ className }) => {
         <button
           className={cn(styles.head, styles.active)}
           onClick={() => setVisible(!visible)}
-        >
+        > <span style={{color: "white"}}>L</span>
           <Icon name="message" size="24" />
         </button>
         <div className={styles.body}>
