@@ -76,6 +76,7 @@ const Help = ({ className, visible, setVisible, onClose }) => {
           Aide & formation
           <button className={styles.close} onClick={() => setVisible(false)}>
             <Icon name="close" size="24" />
+            <span style={{color: "white"}}>L</span> 
           </button>
         </div>
         <div className={styles.list}>

@@ -169,6 +169,7 @@ const Sidebar = ({ className, onClose }) => {
             <Icon name="help" size="24" />
             Aide & formation
             <div className={styles.counter}>8</div>
+            <span style={{color: "white"}}>L</span> 
           </button>
           <Theme className={styles.theme} visibleSidebar={visible} />
         </div>
