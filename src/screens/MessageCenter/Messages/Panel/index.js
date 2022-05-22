@@ -8,7 +8,7 @@ const Panel = ({ actions, parameters, setVisible }) => {
   return (
     <div className={styles.panel}>
       <div className={styles.line}>
-        <div className={styles.man}>Orval Casper</div>
+        <div className={styles.man}>Arthur Le pianiste</div>
         <Actions
           className={styles.actions}
           classActionsHead={styles.actionsHead}

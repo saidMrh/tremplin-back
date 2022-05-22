@@ -8,9 +8,9 @@ import Code from "./Code";
 import Image from "../../components/Image";
 
 const items = [
-  "Libre pour toujours",
-  "Trouver ce que vous cherchez",
-  "Modèles de CV gratuits"
+  "13 partenaires",
+  "200 entreprises partenaires",
+  "400 jeunes suivis"
 ];
 
 const SignUp = () => {
@@ -24,7 +24,7 @@ const SignUp = () => {
           <div className={styles.preview}>
             <img src="/images/content/login-pic.png" alt="Login" />
           </div>
-          <div className={cn("h4", styles.subtitle)}>Plan includes</div>
+          <div className={cn("h3", styles.subtitle)}>Tremplin Handicap</div>
           <ul className={styles.list}>
             {items.map((x, index) => (
               <li key={index}>{x}</li>

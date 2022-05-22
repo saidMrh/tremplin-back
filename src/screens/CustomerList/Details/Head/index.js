@@ -12,7 +12,7 @@ const Head = ({ className }) => {
           <img src="/images/content/avatar-1.jpg" alt="Avatar" />
         </div>
         <div className={styles.details}>
-          <div className={styles.man}>Chelsie Haley</div>
+          <div className={styles.man}>Dana ZOUAOUI</div>
           <div className={styles.login}>@chelsiehaly</div>
         </div>
       </div>

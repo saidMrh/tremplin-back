@@ -5,7 +5,7 @@ import Icon from "../../../Icon";
 import Overview from "./Overview";
 import Products from "./Products";
 
-const navigation = ["Product", "Comments"];
+const navigation = ["Article", "Commentaires"];
 
 const Details = ({ className, setValue, activeIndex, setActiveIndex }) => {
   const handleClick = (index) => {

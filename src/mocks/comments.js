@@ -70,7 +70,7 @@ export const commentsProduct = [
     answer: [
       {
         id: 1,
-        author: "Chelsie Haley",
+        author: "Dana ZOUAOUI",
         avatar: "/images/content/avatar.jpg",
         time: "18h",
         rating: 4,

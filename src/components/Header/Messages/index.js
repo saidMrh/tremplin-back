@@ -17,7 +17,7 @@ const messages = [
     url: "/message-center",
   },
   {
-    title: "Orval Casper",
+    title: "Arthur",
     content: "When do you release the coded template",
     avatar: "/images/content/avatar-2.jpg",
     time: "11:59AM",
@@ -25,7 +25,7 @@ const messages = [
     url: "/message-center",
   },
   {
-    title: "Michel Emard",
+    title: "Tanguy LAPEYRE",
     content: "When do you release the coded template",
     avatar: "/images/content/avatar-3.jpg",
     time: "09:30AM",

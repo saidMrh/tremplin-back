@@ -7,7 +7,7 @@ import Item from "./Item";
 
 const items = [
   {
-    title: "Exclusive downloads",
+    title: "3 conseils pour un stage réussi",
     image: "/images/content/product-pic-1.jpg",
     image2x: "/images/content/product-pic-1@2x.jpg",
     statusText: "New",
@@ -16,7 +16,7 @@ const items = [
     time: "3 mins",
   },
   {
-    title: "Behind the scenes",
+    title: "La conférence Tremplin handicap",
     image: "/images/content/product-pic-2.jpg",
     image2x: "/images/content/product-pic-2@2x.jpg",
     statusText: "New",
@@ -25,7 +25,7 @@ const items = [
     time: "5 mins",
   },
   {
-    title: "Use guidelines",
+    title: "3 conseils pour un stage réussi",
     image: "/images/content/product-pic-3.jpg",
     image2x: "/images/content/product-pic-3@2x.jpg",
     avatar: "/images/content/avatar-3.jpg",
@@ -48,19 +48,14 @@ const items = [
 ];
 
 const menu = [
+ 
   {
-    title: "Upgrade to Pro",
-    icon: "lightning",
-    arrow: true,
-    url: "/upgrade-to-pro",
-  },
-  {
-    title: "Download desktop app",
+    title: "Télécharger mon CV",
     icon: "download",
     url: "/",
   },
   {
-    title: "Message center",
+    title: "Ma messagerie",
     icon: "message",
     counter: 8,
     url: "/message-center",

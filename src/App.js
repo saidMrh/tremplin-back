@@ -44,7 +44,7 @@ function App() {
           exact
           path="/products/dashboard"
           render={() => (
-            <Page title="Tableau de bord des Événements">
+            <Page title="Tableau de bord des évènements">
               <ProductsDashboard />
             </Page>
           )}
@@ -53,7 +53,7 @@ function App() {
           exact
           path="/moncv"
           render={() => (
-            <Page title="Mon CV">
+            <Page title="Mon CVA">
               <NewProduct />
             </Page>
           )}

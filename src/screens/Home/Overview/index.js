@@ -11,7 +11,7 @@ const intervals = ["Tout le temps", "Dans un an", "Par mois"];
 
 const nav = [
   {
-    title: "Événements",
+    title: "Évènements",
     counter: "13",
     icon: "shopping-bag",
     color: "#B1E5FC",

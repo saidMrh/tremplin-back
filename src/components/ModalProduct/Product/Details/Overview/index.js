@@ -12,10 +12,10 @@ const gallery = [
 ];
 
 const features = [
-  "128 prebuilt screens",
-  "SaaS landing page ready",
-  "Global styleguide",
-  "Dark + light more ready",
+  "30 sociétés présentes",
+  "150 élèves",
+  "Le 20 Juin",
+  "Stade Charlety",
 ];
 
 const Overview = () => {
@@ -25,17 +25,17 @@ const Overview = () => {
     <>
       <div className={styles.overview}>
         <div className={cn("h4", styles.title)}>
-          Mon CV
+          Conférence Tremplin handicap
         </div>
         <div className={styles.info}>
-          Elegant product mockup for your next project
+        Ouverte à tous, cette conférence s’adresse particulièrement aux lycéens en situation de handicap
         </div>
         <div className={styles.line}>
           <div className={styles.author}>
             <div className={styles.avatar}>
-              <img src="/images/content/avatar.jpg" alt="Avatar" />
+              <img src="/images/content/avatar-2.jpg" alt="Avatar" />
             </div>
-            by <span>Chelsie Haley</span>
+            Par <span>Oumaima D.</span>
           </div>
           <div className={styles.rating}>
             <Icon name="star-fill" size="24" />
@@ -61,24 +61,21 @@ const Overview = () => {
         </div>
         <div className={styles.row}>
           <div className={styles.col}>
-            <div className={cn("title-red", styles.subtitle)}>Overview</div>
+            <div className={cn("title-red", styles.subtitle)}>En quelques mots</div>
             <div className={styles.content}>
               <p>
-                Meet Node - a crypto NFT marketplace iOS UI design kit for
-                Figma, Sketch, and Adobe XD. The kit includes 126 stylish mobile
-                screens in light and dark mode, a bunch of crypto 3D
-                illustrations, 1 SaaS landing page with full premade
-                breakpoints, and hundreds of components to help you ship your
-                next crypto, NFT product faster.
+              Pour répondre à cette question, nous donnerons la parole aux représentants de la CGE (Conférence des Grandes Écoles) et de la CPU (Conférence des Présidents des Universités).
+Vous pourrez également échanger avec des étudiants handicapés en Grande Ecole et en Université sur leur quotidien, leur vision et leur choix d’études supérieures. Cette conférence sera aussi l’occasion d’interroger des lycéens en situation de handicap : comment se projettent-ils – ou non – dans une poursuite d’études après leur BAC ?
+
+
               </p>
               <p>
-                Types of screens included: onboarding, connect wallet, home
-                feed, profile, upload, menu, search, product detail,
-                notification...
+              Ouverte à tous, cette conférence s’adresse particulièrement aux lycéens en situation de handicap, à leurs professeurs, aux administratifs des lycées, aux conseillers d’orientation, aux représentants académiques.
+
               </p>
               <p>
-                If you have any questions or requests, please feel free to leave
-                them all in the comments section.
+              Rendez-vous le Samedi 4 Juin, au Stade Charléty, en salle de presse du Comité Olympique à 15h30.
+
               </p>
             </div>
           </div>

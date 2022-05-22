@@ -1,7 +1,7 @@
 export const customers = [
   {
     id: 0,
-    user: "Chelsie Haley",
+    user: "Dana ZOUAOUI",
     login: "@username",
     avatar: "/images/content/avatar-1.jpg",
     email: "chelsie@ui8.net",
@@ -61,7 +61,7 @@ export const customers = [
   },
   {
     id: 5,
-    user: "Chelsie Haley",
+    user: "Dana ZOUAOUI",
     login: "@username",
     avatar: "/images/content/avatar-1.jpg",
     email: "chelsie@ui8.net",

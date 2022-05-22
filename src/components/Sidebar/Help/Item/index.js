@@ -43,7 +43,7 @@ const Item = ({ className, item }) => {
         visible={visibleModalPreview}
         onClose={() => setVisibleModalPreview(false)}
         video="/images/content/video.mp4"
-        title="Use guidelines"
+        title="3 conseils pour un stage réussi"
       />
     </>
   );
