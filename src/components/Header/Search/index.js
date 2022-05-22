@@ -46,6 +46,7 @@ const Search = ({ className }) => {
         <div className={styles.head}>
           <button className={styles.start}>
             <Icon name="search" size="24" />
+            <span style={{color: "white"}}>L</span> 
           </button>
           <button className={styles.direction}> <span style={{color: "white"}}>L</span> 
             <Icon name="arrow-left" size="24" /> <span style={{color: "white"}}>L</span>
@@ -53,10 +54,10 @@ const Search = ({ className }) => {
           <input
             className={styles.input}
             type="text"
-            placeholder="
-            Rechercher ou taper une commande"
+            name="hey"
+            placeholder="Rechercher ou taper une commande"
             onChange={() => setVisible(true)}
-          />
+          /><span style={{color: "white"}}></span>
           <button className={styles.result}>⌘ F</button>
           <button className={styles.close} onClick={() => setVisible(false)}>
             <Icon name="close-circle" size="24" /> <span style={{color: "white"}}>L</span>
