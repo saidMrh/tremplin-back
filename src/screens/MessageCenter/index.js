@@ -6,11 +6,11 @@ import Messages from "./Messages";
 
 const navigation = [
   {
-    title: "Customers",
+    title: "Notre chat",
     icon: "profile-circle",
   },
   {
-    title: "Everyone",
+    title: "Notifications",
     icon: "lightning",
   },
 ];
@@ -30,62 +30,62 @@ const actions = [
 
 const parameters = [
   {
-    title: "Customer since",
+    title: "élève depuis",
     content: "Sep 2021",
   },
   {
-    title: "Purchased",
-    content: "21 items",
+    title: "Il a postulé à",
+    content: "15 emplois",
   },
   {
-    title: "Lifetime",
-    content: "$1,235.00",
+    title: "Il a été coaché à ",
+    content: "3 reprises",
   },
 ];
 
 const users = [
   {
     id: 0,
-    man: "Jarret Waelchi",
+    man: "Arthur Le pianiste",
     avatar: "/images/content/avatar-1.jpg",
     time: "03:30PM",
-    content: "When do you release the coded for the Fleet - Travel kit?",
+    content: "J'ai une question",
     new: true,
     online: false,
   },
   {
     id: 1,
-    man: "Orval Casper",
+    man: "Oumaima DIDI",
     avatar: "/images/content/avatar-2.jpg",
     time: "11:59AM",
-    content: "When do you release the coded for the Fleet - Travel kit?",
+    content: "Avez-vous la liste de stages",
     new: false,
     online: true,
   },
   {
     id: 2,
-    man: "Michel Emard",
+    man: "Tanguy LAPEYRE",
     avatar: "/images/content/avatar-3.jpg",
     time: "09:30AM",
-    content: "When do you release the coded for the Fleet - Travel kit?",
+    content: "Je cherche une alternance",
     new: true,
     online: false,
   },
   {
     id: 3,
-    man: "Reuben Ward",
+    man: "Sabrina AMAROUCHE",
     avatar: "/images/content/avatar-4.jpg",
     time: "08:00AM",
-    content: "When do you release the coded for the Fleet - Travel kit?",
+    content: "Je peux m'inscrire à la conférence",
     new: false,
     online: false,
   },
   {
     id: 4,
-    man: "Evalyn Jenkins",
+    man: "Jade ZOUAOUI",
     avatar: "/images/content/avatar-5.jpg",
     time: "07:01AM",
-    content: "When do you release the coded for the Fleet - Travel kit?",
+    content: "Pour notre rendez-vous du 07",
     new: false,
     online: false,
   },
@@ -94,19 +94,19 @@ const users = [
 const messages = [
   {
     id: 0,
-    man: "Orval Casper",
+    man: "Arthur",
     avatar: "/images/content/avatar-1.jpg",
     time: "11:59AM",
     content:
-      'When do you release the coded for the Fleet - Travel kit? <a href="https://ui8.net" target="_blank" rel="noopener noreferrer">https://ui8.net/product-link</a>',
+      "J'ai une question concernant les stages d'été, pourrais-je m'inscrire encore ? ",
   },
   {
     id: 1,
-    man: "Britney Beer",
+    man: "Dana",
     avatar: "/images/content/avatar.jpg",
     time: "11:59AM",
     content:
-      'Hi @orval, thanks for contacting.<br>Yes, I’m working on it. It would be released next 2 weeks. You could check the progress here: <a href="https://ui8.net" target="_blank" rel="noopener noreferrer">https://ui8.net/progress</a><br></br>Thanks for your patience and understanding. <span role="img" aria-label="pray">🙌</span><br> Regards,<br></br>Br',
+      'Bonjour Arthur, <br/><br/>Grâce notre portail Hackaccess, vous pouvez vous inscrire sur le lien suivant: <a href="http://www.tremplin-handicap.fr/" target="_blank" rel="noopener noreferrer">http://www.tremplin-handicap.fr/</a><br></br>Je reste à votre disposition pour tout complément d\'information. <span role="img" aria-label="pray">🙌</span><br> Regards,<br></br>Br',
   },
 ];
 

@@ -6,17 +6,17 @@ import Icon from "../Icon";
 
 const users = [
   {
-    title: "Gladyce",
+    title: "Dana",
     avatar: "/images/content/avatar.jpg",
     url: "/message-center",
   },
   {
-    title: "Elbert",
+    title: "Arthur",
     avatar: "/images/content/avatar-1.jpg",
     url: "/message-center",
   },
   {
-    title: "Joyce",
+    title: "Oumaima",
     avatar: "/images/content/avatar-2.jpg",
     url: "/message-center",
   },

@@ -41,7 +41,7 @@ const ModalProduct = ({ visible, onClose }) => {
             className={cn("button-white", styles.button)}
             to="//moncv"
           >
-            Edit product
+            Articles
           </Link>
           <button className={styles.close} onClick={onClose}>
             <Icon name="close" size="20" />

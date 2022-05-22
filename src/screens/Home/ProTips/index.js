@@ -7,7 +7,7 @@ import ModalPreview from "../../../components/ModalPreview";
 
 const tips = [
   {
-    title: "Early access",
+    title: "Place de marché",
     icon: "schedule",
     statusColor: "purple",
     statusText: "New",
@@ -15,7 +15,7 @@ const tips = [
     action: "3 mins read",
   },
   {
-    title: "Asset use guidelines",
+    title: "Parcours métiers",
     icon: "arrow-right",
     statusColor: "green",
     statusText: "Small label",
@@ -23,13 +23,13 @@ const tips = [
     action: "Time",
   },
   {
-    title: "Exclusive downloads",
+    title: "Networking Tremplin Handicap",
     icon: "design",
     avatar: "/images/content/avatar-1.jpg",
     action: "2 mins read",
   },
   {
-    title: "Behind the scenes",
+    title: "L'actualité du handicap",
     icon: "video-recorder",
     statusColor: "red",
     statusText: "Hot",
@@ -37,7 +37,7 @@ const tips = [
     action: "3 mins read",
   },
   {
-    title: "Asset use guidelines",
+    title: "Baromètre de l'activité de Tremplin handicap",
     icon: "phone",
     statusColor: "green",
     statusText: "Popular",
@@ -45,7 +45,7 @@ const tips = [
     action: "Time",
   },
   {
-    title: "Life & work updates",
+    title: "Retrouvez nos entreprises engagées",
     icon: "multiselect",
     avatar: "/images/content/avatar-4.jpg",
     action: "3 mins read",
@@ -108,7 +108,7 @@ const ProTips = ({ className }) => {
         visible={visibleModalPreview}
         onClose={() => setVisibleModalPreview(false)}
         video="/images/content/video.mp4"
-        title="Use guidelines"
+        title="3 conseils pour un stage réussi"
       />
     </>
   );

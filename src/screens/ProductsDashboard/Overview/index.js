@@ -13,7 +13,7 @@ const intervals = ["Cette semaine", "Ce mois", "Cette année"];
 
 const items = [
   {
-    title: "Événement",
+    title: "Évènements",
     counter: "7",
     icon: "activity",
     value: 12,

@@ -15,9 +15,9 @@ const navigation = [
     url: "/",
   },
   {
-    title: "Événement",
-    slug: "products",
-    icon: "diamond",
+    title: "Évènements",
+    slug: "Actualités",
+    icon: "schedule",
     add: true,
     dropdown: [
       {
@@ -61,39 +61,57 @@ const navigation = [
       },
     ],
   },
-  // {
-  //   title: "Shop",
-  //   icon: "store",
-  //   url: "/shop",
-  // },
-  // {
-  //   title: "Utilisateurs",
-  //   slug: "income",
-  //   icon: "pie-chart",
-  //   dropdown: [
-  //     {
-  //       title: "Earning",
-  //       url: "/income/earning",
-  //     },
-  //     {
-  //       title: "Refunds",
-  //       url: "/income/refunds",
-  //     },
-  //     {
-  //       title: "Payouts",
-  //       url: "/income/payouts",
-  //     },
-  //     {
-  //       title: "Statements",
-  //       url: "/income/statements",
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Promote",
-  //   icon: "promotion",
-  //   url: "/promote",
-  // },
+  {
+    title: "Nos entreprises",
+    icon: "leaderboard",
+    dropdown: [
+      {
+        title: "Earning",
+        url: "/income/earning",
+      },
+      {
+        title: "Refunds",
+        url: "/income/refunds",
+      },
+      {
+        title: "Payouts",
+        url: "/income/payouts",
+      },
+      {
+        title: "Statements",
+        url: "/income/statements",
+      },
+    ],
+
+  },
+  {
+    title: "Nos écoles",
+    slug: "income",
+    icon: "store",
+    dropdown: [
+      {
+        title: "Earning",
+        url: "/income/earning",
+      },
+      {
+        title: "Refunds",
+        url: "/income/refunds",
+      },
+      {
+        title: "Payouts",
+        url: "/income/payouts",
+      },
+      {
+        title: "Statements",
+        url: "/income/statements",
+      },
+    ],
+  },
+  {
+    title: "Nos formations",
+    icon: "promotion",
+    url: "/promote",
+  },
 ];
 
 const Sidebar = ({ className, onClose }) => {

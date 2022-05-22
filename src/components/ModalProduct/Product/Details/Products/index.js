@@ -42,7 +42,7 @@ const Products = () => {
   return (
     <div className={styles.products}>
       <div className={styles.head}>
-        <div className={cn("title-green", styles.title)}>More like this</div>
+        <div className={cn("title-green", styles.title)}>Articles similaires</div>
         <Link
           className={cn("button-stroke button-small", styles.button)}
           to="/products-dashboard"

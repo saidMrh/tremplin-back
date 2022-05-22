@@ -37,16 +37,7 @@ const items = [
       },
     ],
   },
-  {
-    menu: [
-      {
-        title: "Upgrade to Pro",
-        icon: "leaderboard",
-        color: true,
-        url: "/upgrade-to-pro",
-      },
-    ],
-  },
+  
   {
     menu: [
       {

@@ -24,7 +24,7 @@ const Scheduled = () => {
       <Card
         className={styles.card}
         classCardHead={styles.head}
-        title="Products"
+        title="Actualités"
         classTitle={cn("title-purple", styles.title)}
         head={
           <Form

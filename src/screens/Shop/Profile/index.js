@@ -29,7 +29,7 @@ const Profile = () => {
           </button>
         </div>
         <div className={styles.wrap}>
-          <div className={cn("h4", styles.man)}>Chelsie Haley</div>
+          <div className={cn("h4", styles.man)}>Dana ZOUAOUI</div>
           <div className={styles.info}>
             Dream big. Think different. Do great!
           </div>

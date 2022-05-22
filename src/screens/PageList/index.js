@@ -41,9 +41,7 @@ const PageList = () => {
       <p style={{ marginBottom: 5 }}>
         <Link to="/settings">Settings</Link>
       </p>
-      <p style={{ marginBottom: 5 }}>
-        <Link to="/upgrade-to-pro">Upgrade to pro</Link>
-      </p>
+    
       <p style={{ marginBottom: 5 }}>
         <Link to="/message-center">Message center</Link>
       </p>
