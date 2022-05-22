@@ -10,9 +10,9 @@ const Item = ({ className, item }) => {
   return (
     <div className={cn(styles.item, { [styles.new]: item.new }, className)}>
       <div className={styles.avatar}>
-        <img src={item.avatar} alt="Avatar" />
+        <img src={item.avatar} alt="Avatar 798" />
         <div className={styles.icon} style={{ backgroundColor: item.color }}>
-          <img src={item.icon} alt="Status" />
+          <img src={item.icon} alt="Status 4564" />
         </div>
       </div>
       <div className={styles.details}>

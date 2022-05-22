@@ -34,7 +34,7 @@ const Product = ({
           />
         )}
         <Control className={styles.control} />
-        <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product" />
+        <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product 3" />
       </div>
       <div className={styles.line}>
         <div className={styles.title}>{item.product}</div>

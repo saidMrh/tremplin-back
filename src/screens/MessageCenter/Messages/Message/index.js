@@ -5,7 +5,7 @@ const Message = ({ item }) => {
   return (
     <div className={styles.message}>
       <div className={styles.avatar}>
-        <img src={item.avatar} alt="Avatar" />
+        <img src={item.avatar} alt="kwoipoie" />
       </div>
       <div className={styles.details}>
         <div className={styles.head}>

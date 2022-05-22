@@ -90,7 +90,7 @@ const ModalProduct = ({
                   {gallery.map((x, index) => (
                     <div className={styles.slide} key={index}>
                       <div className={styles.preview}>
-                        <img src={x} alt="Gallery" />
+                        <img src={x} alt="Gallery 5" />
                       </div>
                     </div>
                   ))}

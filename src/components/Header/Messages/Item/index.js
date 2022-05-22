@@ -11,7 +11,7 @@ const Item = ({ className, item, onClose }) => {
       onClick={onClose}
     >
       <div className={cn(styles.avatar, { [styles.online]: item.online })}>
-        <img src={item.avatar} alt="Avatar" />
+        <img src={item.avatar} alt="Avatar 2" />
       </div>
       <div className={styles.details}>
         <div className={styles.line}>

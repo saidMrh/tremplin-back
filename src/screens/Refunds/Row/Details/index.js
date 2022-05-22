@@ -57,7 +57,7 @@ const Details = ({ item }) => {
                 </div>
                 <div className={styles.user}>
                   <div className={styles.avatar}>
-                    <img src={item.avatar} alt="Avatar" />
+                    <img src={item.avatar} alt="Avatar 1365" />
                   </div>
                   {item.man}
                 </div>

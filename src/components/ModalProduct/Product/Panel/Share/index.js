@@ -40,7 +40,7 @@ const Share = () => {
         <button className={styles.copy}>Copy</button>
       </div>
       <div className={styles.preview}>
-        <img src="/images/content/photo-1.jpg" alt="Share" />
+        <img src="/images/content/photo-1.jpg" alt="Share 1" />
       </div>
       <div className={styles.btns}>
         {socials.map((x, index) => (

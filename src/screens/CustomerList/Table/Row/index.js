@@ -37,7 +37,7 @@ const Row = ({
         <div className={styles.col}>
           <div className={styles.item} onClick={() => handleClick(item.id)}>
             <div className={styles.avatar}>
-              <img src={item.avatar} alt="Avatar" />
+              <img src={item.avatar} alt="Avatar 16" />
             </div>
             <div className={styles.details}>
               <div className={styles.user}>{item.user}</div>

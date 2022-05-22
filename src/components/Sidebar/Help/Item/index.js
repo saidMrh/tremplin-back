@@ -13,7 +13,7 @@ const Item = ({ className, item }) => {
         onClick={() => setVisibleModalPreview(true)}
       >
         <div className={styles.preview}>
-          <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product" />
+          <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product 4" />
         </div>
         <div className={styles.details}>
           <div className={styles.title}>{item.title}</div>
@@ -32,7 +32,7 @@ const Item = ({ className, item }) => {
             )}
             <div className={styles.user}>
               <div className={styles.avatar}>
-                <img src={item.avatar} alt="Avatar" />
+                <img src={item.avatar} alt="Avatar 10" />
               </div>
               <div className={styles.time}>{item.time}</div>
             </div>

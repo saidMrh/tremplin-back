@@ -15,7 +15,7 @@ const Creator = ({ className, item, index }) => {
         <div className={styles.head}>
           <div className={styles.user}>
             <div className={styles.avatar}>
-              <img src={item.avatar} alt="Avatar" />
+              <img src={item.avatar} alt="Avatar 4" />
             </div>
             <div className={styles.details}>
               <div className={styles.line}>
@@ -58,7 +58,7 @@ const Creator = ({ className, item, index }) => {
               key={index}
               onClick={() => setVisibleModalProduct(true)}
             >
-              <img srcSet={`${x.image2x} 2x`} src={x.image} alt="Product" />
+              <img srcSet={`${x.image2x} 2x`} src={x.image} alt="Product 7" />
             </div>
           ))}
         </div>

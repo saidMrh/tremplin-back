@@ -10,7 +10,7 @@ const Row = ({ item }) => {
       <div className={styles.col}>
         <div className={styles.item}>
           <div className={styles.preview}>
-            <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product" />
+            <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product 979" />
             <div className={styles.icon}>
               <Icon
                 name={(item.picture && "image") || (item.video && "video")}

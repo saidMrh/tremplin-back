@@ -93,7 +93,7 @@ const PopularProducts = ({ className, views }) => {
                         width={30}
                         height={30}
                         src={x.image}
-                        alt="Product"
+                        alt="Product 2"
                       />
                     </div>
                     <div className={styles.title}>{x.title}</div>

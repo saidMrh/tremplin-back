@@ -58,7 +58,7 @@ const User = ({ className }) => {
     <OutsideClickHandler onOutsideClick={() => setVisible(false)}>
       <div className={cn(styles.user, className, { [styles.active]: visible })}>
         <button className={styles.head} onClick={() => setVisible(!visible)}>
-          <img src="/images/content/avatar.jpg" alt="Avatar" />
+          <img src="/images/content/avatar.jpg" alt="Avatar 4" />
         </button>
         <div className={styles.body}>
           {items.map((item, index) => (

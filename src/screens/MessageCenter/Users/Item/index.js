@@ -19,7 +19,7 @@ const Item = ({ item, setVisible, activeId, setActiveId }) => {
       onClick={() => handleClick(item.id)}
     >
       <div className={styles.avatar}>
-        <img src={item.avatar} alt="Avatar" />
+        <img src={item.avatar} alt="Avatar 16" />
       </div>
       <div className={styles.details}>
         <div className={styles.head}>

@@ -12,7 +12,7 @@ const Panel = ({ className }) => {
     <>
       <div className={cn(styles.panel, className)}>
         <div className={styles.avatar}>
-          <img src="/images/content/avatar.jpg" alt="Avatar" />
+          <img src="/images/content/avatar.jpg" alt="Avatar 7" />
         </div>
         <div className={styles.brand}>
           <img src="/images/content/figma.png" alt="Figma" />

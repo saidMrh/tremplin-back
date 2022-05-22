@@ -71,7 +71,7 @@ const CreateLink = ({ className }) => {
             <div className={styles.list}>
               {users.map((x, index) => (
                 <div className={styles.avatar} key={index}>
-                  <img src={x.avatar} alt="Avatar" />
+                  <img src={x.avatar} alt="Avatar 13" />
                   <div className={styles.icon}>
                     <Icon name={x.icon} size="12" />
                   </div>

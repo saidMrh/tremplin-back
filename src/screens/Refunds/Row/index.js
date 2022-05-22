@@ -15,7 +15,7 @@ const Row = ({ item }) => {
               <img
                 srcSet={`${item.image2x} 2x`}
                 src={item.image}
-                alt="Product"
+                alt="Product 98 "
               />
             </div>
             <div className={styles.details}>
@@ -40,7 +40,7 @@ const Row = ({ item }) => {
         <div className={styles.col}>
           <div className={styles.user}>
             <div className={styles.avatar}>
-              <img src={item.avatar} alt="Avatar" />
+              <img src={item.avatar} alt="Avatar 121" />
             </div>
             {item.man}
           </div>

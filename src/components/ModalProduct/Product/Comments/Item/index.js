@@ -12,7 +12,7 @@ const Item = ({ className, item }) => {
     <>
       <div className={cn(styles.item, className)}>
         <div className={styles.avatar}>
-          <img src={item.avatar} alt="Avatar" />
+          <img src={item.avatar} alt="Avatar 8" />
         </div>
         <div className={styles.details}>
           <div className={styles.line}>
@@ -39,7 +39,7 @@ const Item = ({ className, item }) => {
           {item.answer.map((x, index) => (
             <div className={styles.answer} key={index}>
               <div className={styles.avatar}>
-                <img src={x.avatar} alt="Avatar" />
+                <img src={x.avatar} alt="Avatar 7" />
               </div>
               <div className={styles.details}>
                 <div className={styles.line}>

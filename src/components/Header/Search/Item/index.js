@@ -8,7 +8,7 @@ const Item = ({ className, item, onClick }) => {
     <div className={cn(styles.item, className)}>
       <div className={styles.link} onClick={onClick}>
         <div className={styles.preview}>
-          <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product" />
+          <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product 1" />
         </div>
         <div className={styles.details}>
           <div className={styles.content}>{item.content}</div>

@@ -23,7 +23,7 @@ const NewPost = () => {
       <div className={styles.list}>
         {items.map((x, index) => (
           <div className={styles.avatar} key={index}>
-            <img src={x.avatar} alt="Avatar" />
+            <img src={x.avatar} alt="Avatar 1245" />
             <div className={styles.social}>
               <Icon name={x.icon} size="12" />
             </div>
@@ -44,7 +44,7 @@ const NewPost = () => {
         </span>
       </div>
       <div className={styles.preview}>
-        <img src="/images/content/bg-video.jpg" alt="Video" />
+        <img src="/images/content/bg-video.jpg" alt="Video 2" />
       </div>
       <div className={styles.foot}>
         <div className={styles.files}>

@@ -93,7 +93,7 @@ const ProTips = ({ className }) => {
                     )}
                     <div className={styles.user}>
                       <div className={styles.avatar}>
-                        <img src={x.avatar} alt="Avatar" />
+                        <img src={x.avatar} alt="slkjldkjlf" />
                       </div>
                       <div className={styles.action}>{x.action}</div>
                     </div>

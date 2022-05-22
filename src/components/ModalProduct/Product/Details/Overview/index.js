@@ -33,7 +33,7 @@ const Overview = () => {
         <div className={styles.line}>
           <div className={styles.author}>
             <div className={styles.avatar}>
-              <img src="/images/content/avatar-2.jpg" alt="Avatar" />
+              <img src="/images/content/avatar-2.jpg" alt="Avatar 8" />
             </div>
             Par <span>Oumaima D.</span>
           </div>
@@ -48,7 +48,7 @@ const Overview = () => {
             (x, index) =>
               index < 1 && (
                 <div className={styles.preview} key={index}>
-                  <img src={x} alt="Product" />
+                  <img src={x} alt="Product 9" />
                 </div>
               )
           )}

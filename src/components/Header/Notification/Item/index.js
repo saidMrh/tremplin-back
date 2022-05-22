@@ -11,7 +11,7 @@ const Item = ({ className, item, onClose }) => {
       onClick={onClose}
     >
       <div className={styles.avatar}>
-        <img src={item.avatar} alt="Avatar" />
+        <img src={item.avatar} alt="Avatar 3" />
         <div className={styles.icon} style={{ backgroundColor: item.color }}>
           <img src={item.icon} alt="Status" />
         </div>

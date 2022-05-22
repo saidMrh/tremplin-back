@@ -23,7 +23,7 @@ const Preview = ({ visible, onClose }) => {
       >
         <div className={styles.body}>
           <div className={styles.photo}>
-            <img src="/images/content/cv.jpg" alt="Product" />
+            <img src="/images/content/cv.jpg" alt="Product 18" />
           </div>
           <div className={styles.line}>
             <div className={styles.title}>
@@ -32,7 +32,7 @@ const Preview = ({ visible, onClose }) => {
           </div>
           <div className={styles.user}>
             <div className={styles.avatar}>
-              <img src="/images/content/avatar.jpg" alt="Avatar" />
+              <img src="/images/content/avatar.jpg" alt="Avatar 25" />
             </div>
             <div className={styles.text}>
               par <span>Dana ZOUAOUI</span>, le 22 Mai 2022

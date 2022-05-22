@@ -24,7 +24,7 @@ const Row = ({ item, value, onChange }) => {
       <div className={styles.col}>
         <div className={styles.box}>
           <div className={styles.avatar}>
-            <img src={item.avatar} alt="Avatar" />
+            <img src={item.avatar} alt="Avatar 14" />
           </div>
           <div className={styles.details}>
             <div className={styles.line}>
@@ -50,7 +50,7 @@ const Row = ({ item, value, onChange }) => {
       <div className={styles.col}>
         <div className={styles.item}>
           <div className={styles.preview}>
-            <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product" />
+            <img srcSet={`${item.image2x} 2x`} src={item.image} alt="Product 6" />
           </div>
           <div className={styles.details}>
             <div className={styles.product}>{item.product}</div>

@@ -52,7 +52,7 @@ const Smile = ({ className, up, right, visibleSmile, setVisibleSmile }) => {
           <div className={styles.list}>
             {smileys.map((x, index) => (
               <button className={styles.item} key={index}>
-                <img src={x} alt="Smile" />
+                <img src={x} alt="Smile 1" />
               </button>
             ))}
           </div>

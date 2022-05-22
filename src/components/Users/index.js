@@ -43,7 +43,7 @@ const Users = ({ className }) => {
         {users.map((x, index) => (
           <Link className={styles.item} key={index} to={x.url}>
             <div className={styles.avatar}>
-              <img src={x.avatar} alt="Avatar" />
+              <img src={x.avatar} alt="Avatar 12" />
             </div>
             <div className={styles.title}>{x.title}</div>
           </Link>
