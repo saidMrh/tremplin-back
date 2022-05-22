@@ -127,20 +127,20 @@ const CategoryAndAttibutes = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Category & attibutes"
+      title="Catégorie & attributs"
       classTitle="title-purple"
     >
       <div className={styles.images}>
         <Dropdown
           className={styles.field}
-          label="Category"
+          label="Catégorie"
           tooltip="Maximum 100 characters. No HTML or emoji allowed"
           value={category}
           setValue={setCategory}
           options={optionsCategory}
         />
         <div className={styles.label}>
-          Compatibility{" "}
+        Compatibilité{" "}
           <Tooltip
             className={styles.tooltip}
             title="Maximum 100 characters. No HTML or emoji allowed"

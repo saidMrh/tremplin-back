@@ -14,7 +14,7 @@ const Login = ({ className }) => {
       <div className={styles.fieldset}>
         <TextInput
           className={styles.field}
-          label="Old password"
+          label="Ancien mot de passe"
           name="old-password"
           type="password"
           tooltip="Maximum 100 characters. No HTML or emoji allowed"
@@ -23,7 +23,7 @@ const Login = ({ className }) => {
         <div className={styles.row}>
           <TextInput
             className={styles.field}
-            label="New password"
+            label="Nouveau mot de passe"
             name="new-password"
             type="password"
             tooltip="Maximum 100 characters. No HTML or emoji allowed"
@@ -31,7 +31,7 @@ const Login = ({ className }) => {
           />
           <TextInput
             className={styles.field}
-            label="Confirm new password"
+            label="Confirmer le nouveau mot de passe"
             name="confirm-password"
             type="password"
             tooltip="Maximum 100 characters. No HTML or emoji allowed"
@@ -39,7 +39,7 @@ const Login = ({ className }) => {
           />
         </div>
         <button className={cn("button-stroke", styles.button)}>
-          Update password
+          Mettre à jour le mot de passe
         </button>
       </div>
     </Item>

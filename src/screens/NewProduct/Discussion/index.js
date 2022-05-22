@@ -8,19 +8,20 @@ const Discussion = ({ className }) => {
   const [content, setContent] = useState();
 
   return (
-    <Card
-      className={cn(styles.card, className)}
-      title="Discussion"
-      classTitle="title-red"
-    >
-      <Editor
-        state={content}
-        onChange={setContent}
-        classEditor={styles.editor}
-        label="Message to reviewer"
-        tooltip="Description Message to reviewer"
-      />
-    </Card>
+    <div></div>
+    // <Card
+    //   className={cn(styles.card, className)}
+    //   title="Discussion"
+    //   classTitle="title-red"
+    // >
+    //   <Editor
+    //     state={content}
+    //     onChange={setContent}
+    //     classEditor={styles.editor}
+    //     label="Message to reviewer"
+    //     tooltip="Description Message to reviewer"
+    //   />
+    // </Card>
   );
 };
 

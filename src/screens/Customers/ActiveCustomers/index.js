@@ -14,7 +14,7 @@ import {
 } from "recharts";
 import useDarkMode from "use-dark-mode";
 
-const intervals = ["Last 30 days", "Last 20 days", "Last 10 days"];
+const intervals = ["Les 30 derniers jours", "20 derniers jours", "10 derniers jours"];
 
 const data = [
   {
@@ -74,7 +74,7 @@ const ActiveCustomers = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Active customers"
+      title="Utilisateurs actifs"
       classTitle={cn("title-purple", styles.cardTitle)}
       classCardHead={styles.cardHead}
       head={

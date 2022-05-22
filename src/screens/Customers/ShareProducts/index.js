@@ -41,18 +41,10 @@ const ShareProducts = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Share your products"
+      title="Actualités"
       classTitle={cn("title-blue", styles.cardTitle)}
       classCardHead={styles.cardHead}
-      head={
-        <Link
-          className={cn("button-stroke button-small", styles.button)}
-          to="/promote"
-        >
-          <span>Go to promote</span>
-          <Icon name="promotion" size="24" />
-        </Link>
-      }
+      
     >
       <div className={styles.section}>
         <div className={styles.list}>
@@ -72,11 +64,11 @@ const ShareProducts = ({ className }) => {
           )}
         </div>
         <div className={styles.info}>
-          50% of new customers explore products because the author sharing the
+          {/* 50% of new customers explore products because the author sharing the
           work on the social media network. Gain your earnings right now!{" "}
           <span role="img" aria-label="fire">
             🔥
-          </span>
+          </span> */}
         </div>
         <div className={styles.btns}>
           {socials.map((x, index) => (

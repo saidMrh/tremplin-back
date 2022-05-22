@@ -20,16 +20,16 @@ const Settings = () => {
       action: () =>
         scrollToLogin.current.scrollIntoView({ behavior: "smooth" }),
     },
-    {
-      title: "Notifications",
-      action: () =>
-        scrollToNotifications.current.scrollIntoView({ behavior: "smooth" }),
-    },
-    {
-      title: "Payment",
-      action: () =>
-        scrollToPayment.current.scrollIntoView({ behavior: "smooth" }),
-    },
+    // {
+    //   title: "Notifications",
+    //   action: () =>
+    //     scrollToNotifications.current.scrollIntoView({ behavior: "smooth" }),
+    // },
+    // {
+    //   title: "Payment",
+    //   action: () =>
+    //     scrollToPayment.current.scrollIntoView({ behavior: "smooth" }),
+    // },
   ];
   const options = [];
   navigation.map((x) => options.push(x.title));
@@ -86,22 +86,22 @@ const Settings = () => {
               <div className={styles.anchor} ref={scrollToLogin}></div>
               <Login />
             </div>
-            <div
+            {/* <div
               className={cn(styles.item, {
                 [styles.active]: activeTab === options[2],
               })}
             >
               <div className={styles.anchor} ref={scrollToNotifications}></div>
               <Notifications />
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className={cn(styles.item, {
                 [styles.active]: activeTab === options[3],
               })}
-            >
+            > 
               <div className={styles.anchor} ref={scrollToPayment}></div>
               <Payment />
-            </div>
+            </div> */}
           </div>
           <button className={cn("button", styles.button)}>Save</button>
         </div>

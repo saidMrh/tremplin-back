@@ -26,7 +26,7 @@ const Header = ({ onOpen }) => {
         <Icon name="search" size="24" />
       </button>
       <div className={styles.control} onClick={() => setVisible(false)}>
-        <Link className={cn("button", styles.button)} to="/products/add">
+        <Link className={cn("button", styles.button)} to="/moncv">
           <Icon name="add" size="24" />
           <span>Créer</span>
         </Link>

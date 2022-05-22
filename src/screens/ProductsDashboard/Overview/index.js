@@ -9,7 +9,7 @@ import Tooltip from "../../../components/Tooltip";
 import Balance from "../../../components/Balance";
 import Chart from "./Chart";
 
-const intervals = ["This week", "This month", "This year"];
+const intervals = ["Cette semaine", "Ce mois", "Cette année"];
 
 const items = [
   {

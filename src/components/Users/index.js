@@ -27,7 +27,7 @@ const Users = ({ className }) => {
     <div className={cn(styles.users, className)}>
       <div className={styles.head}>
         <div className={styles.info}>
-          Welcome <strong>857 customers</strong> with a personal message{" "}
+        Bienvenue à <strong>36 utilisateurs</strong> avec un message personnel{" "}
           <span role="img" aria-label="smile">
             😎
           </span>
@@ -36,7 +36,7 @@ const Users = ({ className }) => {
           className={cn("button-stroke", styles.button)}
           to="/message-center"
         >
-          Send<span> message</span>
+          Envoyer<span> message</span>
         </Link>
       </div>
       <div className={styles.list}>
@@ -52,7 +52,7 @@ const Users = ({ className }) => {
           <div className={styles.icon}>
             <Icon name="arrow-right" size="24" />
           </div>
-          <div className={styles.text}>View all</div>
+          <div className={styles.text}>Voir tout</div>
         </Link>
       </div>
     </div>

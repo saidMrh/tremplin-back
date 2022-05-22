@@ -25,6 +25,7 @@ import Payouts from "./screens/Payouts";
 import Statements from "./screens/Statements";
 import Shop from "./screens/Shop";
 import PageList from "./screens/PageList";
+import ShareProducts from "./screens/Customers/ShareProducts";
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
           exact
           path="/products/dashboard"
           render={() => (
-            <Page title="Tableau de bord des Événement">
+            <Page title="Tableau de bord des Événements">
               <ProductsDashboard />
             </Page>
           )}
@@ -70,8 +71,8 @@ function App() {
           exact
           path="/products/released"
           render={() => (
-            <Page title="Released">
-              <Released />
+            <Page >
+              <ShareProducts />
             </Page>
           )}
         />
@@ -97,7 +98,7 @@ function App() {
           exact
           path="/customers/overview"
           render={() => (
-            <Page title="Customers">
+            <Page title="Utilisateurs">
               <Customers />
             </Page>
           )}

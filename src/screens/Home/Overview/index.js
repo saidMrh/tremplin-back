@@ -7,22 +7,22 @@ import Dropdown from "../../../components/Dropdown";
 import Users from "../../../components/Users";
 import Chart from "./Chart";
 
-const intervals = ["All time", "In a year", "Per month"];
+const intervals = ["Tout le temps", "Dans un an", "Par mois"];
 
 const nav = [
   {
-    title: "Customers",
-    counter: "1024",
+    title: "Événements",
+    counter: "13",
     icon: "shopping-bag",
     color: "#B1E5FC",
-    value: -37.8,
+    value: 6.5,
   },
   {
-    title: "Income",
-    counter: "256k",
+    title: "Formations",
+    counter: "16",
     icon: "activity",
     color: "#CABDFF",
-    value: 37.8,
+    value: 5,
   },
 ];
 

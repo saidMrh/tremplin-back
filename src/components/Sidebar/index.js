@@ -31,69 +31,69 @@ const navigation = [
       //   colorCounter: "#FFBC99",
       // },
       {
-        title: "Released",
+        title: "Actualités",
         url: "/products/released",
       },
-      {
-        title: "Comments",
-        url: "/products/comments",
-      },
-      {
-        title: "Scheduled",
-        url: "/products/scheduled",
-        counter: "8",
-        colorCounter: "#B5E4CA",
-      },
+      // {
+      //   title: "Comments",
+      //   url: "/products/comments",
+      // },
+      // {
+      //   title: "Scheduled",
+      //   url: "/products/scheduled",
+      //   counter: "8",
+      //   colorCounter: "#B5E4CA",
+      // },
     ],
   },
   {
-    title: "Customers",
+    title: "Utilisateurs",
     slug: "customers",
     icon: "profile-circle",
     dropdown: [
       {
-        title: "Overview",
+        title: "Tableau de bord",
         url: "/customers/overview",
       },
       {
-        title: "Customer list",
+        title: "Liste des utilisateurs",
         url: "/customers/customer-list",
       },
     ],
   },
-  {
-    title: "Shop",
-    icon: "store",
-    url: "/shop",
-  },
-  {
-    title: "Income",
-    slug: "income",
-    icon: "pie-chart",
-    dropdown: [
-      {
-        title: "Earning",
-        url: "/income/earning",
-      },
-      {
-        title: "Refunds",
-        url: "/income/refunds",
-      },
-      {
-        title: "Payouts",
-        url: "/income/payouts",
-      },
-      {
-        title: "Statements",
-        url: "/income/statements",
-      },
-    ],
-  },
-  {
-    title: "Promote",
-    icon: "promotion",
-    url: "/promote",
-  },
+  // {
+  //   title: "Shop",
+  //   icon: "store",
+  //   url: "/shop",
+  // },
+  // {
+  //   title: "Utilisateurs",
+  //   slug: "income",
+  //   icon: "pie-chart",
+  //   dropdown: [
+  //     {
+  //       title: "Earning",
+  //       url: "/income/earning",
+  //     },
+  //     {
+  //       title: "Refunds",
+  //       url: "/income/refunds",
+  //     },
+  //     {
+  //       title: "Payouts",
+  //       url: "/income/payouts",
+  //     },
+  //     {
+  //       title: "Statements",
+  //       url: "/income/statements",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Promote",
+  //   icon: "promotion",
+  //   url: "/promote",
+  // },
 ];
 
 const Sidebar = ({ className, onClose }) => {

@@ -7,7 +7,7 @@ import Users from "../../../components/Users";
 import Balance from "../../../components/Balance";
 import Chart from "./Chart";
 
-const intervals = ["Last 28 days", "Last 14 days", "Last 7 days"];
+const intervals = ["28 derniers jours", "14 derniers jours", "Les 7 derniers jours"];
 
 const Overview = ({ className }) => {
   const [sorting, setSorting] = useState(intervals[0]);
@@ -15,7 +15,7 @@ const Overview = ({ className }) => {
   return (
     <Card
       className={cn(styles.card, className)}
-      title="Total customers"
+      title="Nombre total de clients"
       classTitle={cn("title-red", styles.cardTitle)}
       classCardHead={styles.cardHead}
       head={
@@ -31,9 +31,9 @@ const Overview = ({ className }) => {
     >
       <div className={styles.overview}>
         <div className={styles.details}>
-          <div className={cn("h4", styles.title)}>1,509 customers</div>
+          <div className={cn("h4", styles.title)}>1120 utilisateurs</div>
           <div className={styles.line}>
-            <Balance className={styles.balance} value="37.8" background /> vs.
+            <Balance className={styles.balance} value="6.3" background /> vs.
             Sep 8, 2021
           </div>
         </div>

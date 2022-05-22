@@ -26,7 +26,7 @@ const Price = ({ className }) => {
         />
         <div className={styles.line}>
           <div className={styles.info}>
-            Allow customers to pay they want{" "}
+            Permettez aux clients de payer comme ils veulent{" "}
             <Tooltip
               className={styles.tooltip}
               title="Maximum 100 characters. No HTML or emoji allowed"
@@ -44,7 +44,7 @@ const Price = ({ className }) => {
           <TextInput
             className={styles.field}
             classLabel={styles.label}
-            label="Minimum amount"
+            label="Montant minimal"
             name="minimum-amount"
             type="text"
             required
@@ -53,7 +53,7 @@ const Price = ({ className }) => {
           <TextInput
             className={styles.field}
             classLabel={styles.label}
-            label="Suggested amount"
+            label="Montant suggéré"
             name="suggested-amount"
             type="text"
             required

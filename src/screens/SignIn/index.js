@@ -28,15 +28,14 @@ const SignIn = () => {
               <img src="/images/content/google.svg" alt="Google" />
               Google
             </button>
-            {/* <button className={cn("button-stroke", styles.button)}>
-              <Image
-                className={styles.pic}
-                src="/images/content/facebook.svg"
-                srcDark="/images/content/facebook.svg"
+            <button className={cn("button-stroke", styles.button)}>
+              <img
+              width={30}
+                src="/images/content/facebook.png"
                 alt="Apple"
               />
               Facebook
-            </button> */}
+            </button>
           </div>
         </div>
         <div className={styles.body}>

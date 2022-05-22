@@ -39,9 +39,9 @@ const Product = ({
       <div className={styles.line}>
         <div className={styles.title}>{item.product}</div>
         {item.price > 0 ? (
-          <div className={styles.price}>${item.price}</div>
+          <div className={styles.price}>{item.price}</div>
         ) : (
-          <div className={styles.empty}>${item.price}</div>
+          <div className={styles.empty}>{item.price}</div>
         )}
       </div>
       {released ? (

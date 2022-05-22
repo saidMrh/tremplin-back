@@ -197,7 +197,7 @@ export const market = [
 export const released = [
   {
     id: 0,
-    product: "Bento Matte 3D Illustration",
+    product: "Hello",
     category: "UI design kit",
     image: "/images/content/product-pic-1.jpg",
     image2x: "/images/content/product-pic-1@2x.jpg",

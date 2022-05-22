@@ -15,13 +15,12 @@ const Entry = ({ onConfirm }) => {
             Google
           </button>
           <button className={cn("button-stroke", styles.button)}>
-            <Image
-              className={styles.pic}
-              src="/images/content/apple-dark.svg"
-              srcDark="/images/content/apple-light.svg"
-              alt="Apple"
-            />
-            Apple ID
+          <img
+              width={30}
+                src="/images/content/facebook.png"
+                alt="Apple"
+              />
+              Facebook
           </button>
         </div>
       </div>

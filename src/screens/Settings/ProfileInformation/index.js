@@ -12,7 +12,7 @@ const ProfileInformation = ({ className }) => {
   return (
     <Item
       className={cn(styles.card, className)}
-      title="Profile information"
+      title="Informations sur le profil"
       classTitle="title-green"
     >
       <div className={styles.profile}>
@@ -26,15 +26,15 @@ const ProfileInformation = ({ className }) => {
           <input type="file" />
           <button className={cn("button", styles.button)} type="button">
             <Icon name="add" size="24" />
-            <span>Upload new picture</span>
+            <span>Télécharger une nouvelle image</span>
           </button>
         </div>
-        <button className={cn("button-stroke", styles.button)}>Remove</button>
+        <button className={cn("button-stroke", styles.button)}>Supprimer</button>
       </div>
       <div className={styles.fieldset}>
         <TextInput
           className={styles.field}
-          label="Display name"
+          label="Nom et prénom"
           name="display-name"
           type="text"
           tooltip="Maximum 100 characters. No HTML or emoji allowed"
@@ -50,7 +50,7 @@ const ProfileInformation = ({ className }) => {
         />
         <TextInput
           className={styles.field}
-          label="Location"
+          label="Emplacement"
           name="location"
           type="text"
           tooltip="Maximum 100 characters. No HTML or emoji allowed"

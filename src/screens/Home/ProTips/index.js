@@ -59,7 +59,7 @@ const ProTips = ({ className }) => {
     <>
       <Card
         className={cn(styles.card, className)}
-        title="Pro tips"
+        title="Ateliers et formations"
         classTitle="title-green"
       >
         <div className={styles.tips}>

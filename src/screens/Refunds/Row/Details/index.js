@@ -67,8 +67,8 @@ const Details = ({ item }) => {
               state={content}
               onChange={setContent}
               classEditor={styles.editor}
-              label="Send message"
-              tooltip="Send message"
+              label="Envoyer le message"
+              tooltip="Envoyer le message"
               button="Send"
             />
           </div>

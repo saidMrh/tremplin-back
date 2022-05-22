@@ -24,35 +24,36 @@ const socials = [
 
 const MoreCustomers = ({ className }) => {
   return (
-    <Card
-      className={cn(styles.card, className)}
-      title="Get more customers!"
-      classTitle="title-blue"
-    >
-      <div className={styles.comments}>
-        <div className={styles.info}>
-          50% of new customers explore products because the author sharing the
-          work on the social media network. Gain your earnings right now!{" "}
-          <span role="img" aria-label="fire">
-            🔥
-          </span>
-        </div>
-        <div className={styles.btns}>
-          {socials.map((x, index) => (
-            <a
-              className={cn("button-stroke", styles.button)}
-              href={x.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={index}
-            >
-              <Icon name={x.icon} size="24" />
-              <span>{x.title}</span>
-            </a>
-          ))}
-        </div>
-      </div>
-    </Card>
+    <div></div>
+    // <Card
+    //   className={cn(styles.card, className)}
+    //   title="Get more customers!"
+    //   classTitle="title-blue"
+    // >
+    //   <div className={styles.comments}>
+    //     <div className={styles.info}>
+    //       50% of new customers explore products because the author sharing the
+    //       work on the social media network. Gain your earnings right now!{" "}
+    //       <span role="img" aria-label="fire">
+    //         🔥
+    //       </span>
+    //     </div>
+    //     <div className={styles.btns}>
+    //       {socials.map((x, index) => (
+    //         <a
+    //           className={cn("button-stroke", styles.button)}
+    //           href={x.url}
+    //           target="_blank"
+    //           rel="noopener noreferrer"
+    //           key={index}
+    //         >
+    //           <Icon name={x.icon} size="24" />
+    //           <span>{x.title}</span>
+    //         </a>
+    //       ))}
+    //     </div>
+    //   </div>
+    // </Card>
   );
 };
 

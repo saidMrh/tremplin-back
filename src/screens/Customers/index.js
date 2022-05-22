@@ -17,7 +17,7 @@ const Customers = () => {
         <Overview className={styles.card} />
         <TrafficChannel className={styles.card} />
         <ActiveCustomers className={styles.card} />
-        <ShareProducts className={styles.card} />
+        {/* <ShareProducts className={styles.card} /> */}
       </div>
       <div className={styles.col}>
         <RefundRequests
