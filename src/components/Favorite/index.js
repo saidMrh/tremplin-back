@@ -7,7 +7,7 @@ const Favorite = ({ className, size }) => {
   const [visible, setVisible] = useState(false);
   return (
     <button
-      className={cn(
+      className={cn( 'btn 1',
         styles.button,
         {
           [styles.active]: visible,

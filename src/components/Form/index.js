@@ -24,7 +24,7 @@ const Form = ({
         placeholder={placeholder}
         required
       />
-      <button className={styles.result}>
+      <button className={'Btn 2', styles.result}>
         <Icon name={icon} size="24" />
       </button>
     </form>

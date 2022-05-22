@@ -53,7 +53,7 @@ function App() {
           exact
           path="/moncv"
           render={() => (
-            <Page title="Mon CVA">
+            <Page title="Mon CV">
               <NewProduct />
             </Page>
           )}

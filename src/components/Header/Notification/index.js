@@ -34,7 +34,7 @@ const Notification = ({ className }) => {
         })}
       >
         <button
-          className={cn(styles.head, styles.active)}
+          className={cn('Btn 3', styles.head, styles.active)}
           onClick={() => setVisible(!visible)}
         >
           <Icon name="notification" size="24" />

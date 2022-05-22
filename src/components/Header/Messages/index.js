@@ -67,7 +67,7 @@ const Messages = ({ className }) => {
   return (
     <OutsideClickHandler onOutsideClick={() => setVisible(false)}>
       <div
-        className={cn(styles.messages, className, {
+        className={cn('Btn 5', styles.messages, className, {
           [styles.active]: visible,
         })}
       >
